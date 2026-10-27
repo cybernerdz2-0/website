@@ -121,7 +121,7 @@ var COPY = {
   }
 };
 
-/* CyberNerdz 2.0: self-hosted, no network requests, no tracking. Checklists use localStorage on this device only. */
+/* CyberNerdz 2.0. Page views are counted by the Cloudflare Web Analytics beacon in each HTML page. Checklist ticks, the scam self-check, read-aloud, and questions to Veronica stay on this device and are never sent or logged. */
 (function () {
   "use strict";
   var doc = document, root = doc.documentElement;
