@@ -2,134 +2,122 @@ var COPY = {
   en: {
     greeting: "Hi, I'm Veronica, an AI voice assistant. You are here, and we welcome you. I'm here to help you through this guide.",
     note: "Voice: Veronica, an AI assistant, spoken by your own device.",
-    title: "Ask Veronica",
-    hint: "Ask about this page. Veronica answers only with the words written here.",
-    placeholder: "What would you like to know?",
+    title: "Ask Veronica a question about this page",
+    disclose: "Veronica is an AI assistant that only searches this page, on your device.",
+    placeholder: "What do I do if I paid a scammer?",
     button: "Ask",
-    before: ["Good question. Here's what this page says:", "I'm glad you asked.", "Let's look at this together."],
-    after: ["You're not alone in this.", "Take it one step at a time."],
-    miss: "I'm sorry, I couldn't find that on this page. You can email help@cybrenerdz.com and a cybersecurity expert can help you."
+    jump: "Show this part on the page",
+    miss: "I can only answer from this page, and I didn't find that here. You can email help@cybrenerdz.com for help from a cybersecurity expert."
   },
   es: {
     greeting: "Hola, soy Veronica, una asistente de voz con inteligencia artificial. Usted está aquí, y le damos la bienvenida. Estoy aquí para ayudarle a recorrer esta guía.",
     note: "Voz: Veronica, una asistente de inteligencia artificial, hablada por su propio dispositivo.",
-    title: "Pregúntele a Veronica",
-    hint: "Pregunte sobre esta página. Veronica responde solo con lo que está escrito aquí.",
-    placeholder: "¿Qué le gustaría saber?",
+    title: "Pregúntele a Veronica sobre esta página",
+    disclose: "Veronica es una asistente de inteligencia artificial que solo busca en esta página, en su dispositivo.",
+    placeholder: "¿Qué hago si le pagué a un estafador?",
     button: "Preguntar",
-    before: ["Buena pregunta. Esto es lo que dice esta página:", "Me alegra que lo pregunte.", "Veámoslo juntos."],
-    after: ["No está solo en esto.", "Vaya un paso a la vez."],
-    miss: "Lo siento, no pude encontrar eso en esta página. Puede escribir a help@cybrenerdz.com y un experto en ciberseguridad puede ayudarle."
+    jump: "Ver esta parte en la página",
+    miss: "Solo puedo responder con esta página, y no encontré eso aquí. Puede escribir a help@cybrenerdz.com para recibir ayuda de un experto en ciberseguridad."
   },
   zh: {
     greeting: "您好，我是 Veronica，一名人工智能语音助手。您已经在这里了，我们欢迎您。我会陪着您看完这份指南。",
     note: "语音：Veronica，一位人工智能助手，由您自己的设备朗读。",
-    title: "问问 Veronica",
-    hint: "就本页提一个问题。Veronica 只根据这里写的内容回答。",
-    placeholder: "您想了解什么？",
+    title: "向 Veronica 提一个关于本页的问题",
+    disclose: "Veronica 是人工智能助手，只在您的设备上搜索本页。",
+    placeholder: "如果我已经付钱给骗子，该怎么办？",
     button: "提问",
-    before: ["问得好。这一页是这样说的：", "很高兴您问了这个问题。", "我们一起来看看。"],
-    after: ["在这件事上，您不是一个人。", "一步一步来。"],
-    miss: "对不起，我在这一页上没有找到。您可以发邮件到 help@cybrenerdz.com，网络安全专家可以帮助您。"
+    jump: "在页面上查看这段",
+    miss: "我只能根据本页回答，这里没有找到。您可以发邮件到 help@cybrenerdz.com，向网络安全专家求助。"
   },
   vi: {
     greeting: "Xin chào, tôi là Veronica, trợ lý giọng nói trí tuệ nhân tạo. Bạn đang ở đây, và chúng tôi chào đón bạn. Tôi ở đây để giúp bạn đi qua hướng dẫn này.",
     note: "Giọng nói: Veronica, trợ lý trí tuệ nhân tạo, do chính thiết bị của bạn đọc.",
-    title: "Hỏi Veronica",
-    hint: "Hãy hỏi về trang này. Veronica chỉ trả lời bằng những gì được viết ở đây.",
-    placeholder: "Bạn muốn biết điều gì?",
+    title: "Hỏi Veronica một câu về trang này",
+    disclose: "Veronica là trợ lý trí tuệ nhân tạo, chỉ tìm trên trang này, ngay trên thiết bị của bạn.",
+    placeholder: "Tôi phải làm gì nếu đã trả tiền cho kẻ lừa đảo?",
     button: "Hỏi",
-    before: ["Câu hỏi hay. Trang này nói thế này:", "Tôi vui vì bạn đã hỏi.", "Chúng ta cùng xem nhé."],
-    after: ["Bạn không đơn độc trong chuyện này.", "Hãy đi từng bước một."],
-    miss: "Tôi rất tiếc, tôi không tìm thấy điều đó trên trang này. Bạn có thể gửi thư tới help@cybrenerdz.com và một chuyên gia an ninh mạng có thể giúp bạn."
+    jump: "Xem phần này trên trang",
+    miss: "Tôi chỉ có thể trả lời từ trang này, và tôi không tìm thấy điều đó ở đây. Bạn có thể gửi thư tới help@cybrenerdz.com để được chuyên gia an ninh mạng giúp đỡ."
   },
   tl: {
     greeting: "Kumusta, ako si Veronica, isang AI voice assistant. Nandito ka, at malugod ka naming tinatanggap. Nandito ako para tulungan kang basahin ang gabay na ito.",
     note: "Boses: Veronica, isang AI assistant, binabasa ng sarili mong aparato.",
-    title: "Tanungin si Veronica",
-    hint: "Magtanong tungkol sa pahinang ito. Sumasagot si Veronica gamit lang ang nakasulat dito.",
-    placeholder: "Ano ang gusto mong malaman?",
+    title: "Magtanong kay Veronica tungkol sa pahinang ito",
+    disclose: "Si Veronica ay isang AI assistant na hinahanap lang ang pahinang ito, sa sarili mong aparato.",
+    placeholder: "Ano ang gagawin ko kung nakabayad na ako sa scammer?",
     button: "Tanong",
-    before: ["Magandang tanong. Ito ang sinasabi ng pahinang ito:", "Natutuwa akong nagtanong ka.", "Tingnan natin ito nang magkasama."],
-    after: ["Hindi ka nag-iisa rito.", "Isa-isang hakbang lang."],
-    miss: "Paumanhin, hindi ko iyon makita sa pahinang ito. Maaari kang mag-email sa help@cybrenerdz.com at matutulungan ka ng isang eksperto sa cybersecurity."
+    jump: "Ipakita ang bahaging ito sa pahina",
+    miss: "Mula lang sa pahinang ito ako makakasagot, at hindi ko iyon nakita rito. Maaari kang mag-email sa help@cybrenerdz.com para tumulong ang isang eksperto sa cybersecurity."
   },
   ko: {
     greeting: "안녕하세요, 저는 인공지능 음성 도우미 Veronica예요. 이곳에 와 주셔서, 환영해요. 이 안내를 함께 살펴보도록 도와드릴게요.",
     note: "음성: 인공지능 도우미 Veronica, 당신의 기기에서 읽어 줍니다.",
-    title: "Veronica에게 물어보기",
-    hint: "이 페이지에 대해 물어보세요. Veronica는 여기에 적힌 내용만으로 답해요.",
-    placeholder: "무엇을 알고 싶으신가요?",
+    title: "이 페이지에 대해 Veronica에게 물어보세요",
+    disclose: "Veronica는 인공지능 도우미이며, 당신의 기기에서 이 페이지만 검색해요.",
+    placeholder: "사기범에게 돈을 보냈다면 어떻게 하나요?",
     button: "물어보기",
-    before: ["좋은 질문이에요. 이 페이지에는 이렇게 적혀 있어요:", "물어봐 주셔서 다행이에요.", "함께 살펴봐요."],
-    after: ["이 일에서 혼자가 아니에요.", "한 단계씩 천천히 해요."],
-    miss: "미안해요, 이 페이지에서 그걸 찾지 못했어요. help@cybrenerdz.com 으로 이메일을 보내시면 사이버보안 전문가가 도와드릴 수 있어요."
+    jump: "페이지에서 이 부분 보기",
+    miss: "이 페이지에 있는 내용만 답할 수 있는데, 여기서는 찾지 못했어요. help@cybrenerdz.com 으로 이메일을 보내면 사이버보안 전문가가 도와줄 수 있어요."
   },
   ar: {
     greeting: "مرحبًا، أنا Veronica، مساعدة صوتية تعمل بالذكاء الاصطناعي. أنت هنا، ونحن نرحب بك. أنا هنا لمساعدتك في هذا الدليل.",
     note: "الصوت: Veronica، مساعدة ذكاء اصطناعي، ينطقها جهازك أنت.",
-    title: "اسأل Veronica",
-    hint: "اسأل عن هذه الصفحة. تجيب Veronica فقط بما هو مكتوب هنا.",
-    placeholder: "ماذا تود أن تعرف؟",
+    title: "اسأل Veronica سؤالاً عن هذه الصفحة",
+    disclose: "Veronica مساعدة ذكاء اصطناعي تبحث في هذه الصفحة فقط، على جهازك.",
+    placeholder: "ماذا أفعل إذا دفعت للمحتال؟",
     button: "اسأل",
-    before: ["سؤال جيد. هذا ما تقوله هذه الصفحة:", "يسعدني أنك سألت.", "لننظر إلى هذا معًا."],
-    after: ["لست وحدك في هذا.", "خذ الأمر خطوة بخطوة."],
-    miss: "آسفة، لم أجد ذلك في هذه الصفحة. يمكنك مراسلة help@cybrenerdz.com ويمكن لخبير في الأمن السيبراني مساعدتك."
+    jump: "أظهر هذا الجزء في الصفحة",
+    miss: "لا أستطيع الإجابة إلا من هذه الصفحة، ولم أجد ذلك هنا. يمكنك مراسلة help@cybrenerdz.com للحصول على مساعدة من خبير في الأمن السيبراني."
   },
   ru: {
     greeting: "Здравствуйте, я Veronica, голосовой помощник с искусственным интеллектом. Вы здесь, и мы рады вам. Я здесь, чтобы помочь вам пройти это руководство.",
     note: "Голос: Veronica, помощник с искусственным интеллектом, его произносит ваше собственное устройство.",
-    title: "Спросить Veronica",
-    hint: "Задайте вопрос об этой странице. Veronica отвечает только тем, что здесь написано.",
-    placeholder: "Что вы хотите узнать?",
+    title: "Спросите Veronica об этой странице",
+    disclose: "Veronica — помощник с искусственным интеллектом, который ищет только на этой странице, на вашем устройстве.",
+    placeholder: "Что делать, если я уже заплатил мошеннику?",
     button: "Спросить",
-    before: ["Хороший вопрос. Вот что сказано на этой странице:", "Я рада, что вы спросили.", "Давайте посмотрим вместе."],
-    after: ["Вы в этом не одни.", "Двигайтесь по одному шагу."],
-    miss: "Мне жаль, я не нашла это на странице. Вы можете написать на help@cybrenerdz.com, и эксперт по кибербезопасности сможет помочь."
+    jump: "Показать это место на странице",
+    miss: "Я могу отвечать только по этой странице и не нашла это здесь. Вы можете написать на help@cybrenerdz.com, и эксперт по кибербезопасности поможет."
   },
   fr: {
     greeting: "Bonjour, je suis Veronica, une assistante vocale dotée d'intelligence artificielle. Vous êtes ici, et nous vous accueillons. Je suis là pour vous aider à parcourir ce guide.",
     note: "Voix : Veronica, une assistante d'intelligence artificielle, lue par votre propre appareil.",
-    title: "Demander à Veronica",
-    hint: "Posez une question sur cette page. Veronica répond seulement avec ce qui est écrit ici.",
-    placeholder: "Que souhaitez-vous savoir ?",
+    title: "Posez une question à Veronica sur cette page",
+    disclose: "Veronica est une assistante d'intelligence artificielle qui cherche seulement dans cette page, sur votre appareil.",
+    placeholder: "Que faire si j'ai payé un escroc ?",
     button: "Demander",
-    before: ["Bonne question. Voici ce que dit cette page :", "Je suis contente que vous ayez demandé.", "Regardons cela ensemble."],
-    after: ["Vous n'êtes pas seul dans cette épreuve.", "Allez-y une étape à la fois."],
-    miss: "Je suis désolée, je n'ai pas trouvé cela sur cette page. Vous pouvez écrire à help@cybrenerdz.com et un expert en cybersécurité pourra vous aider."
+    jump: "Voir ce passage sur la page",
+    miss: "Je ne peux répondre qu'à partir de cette page, et je n'ai pas trouvé cela ici. Vous pouvez écrire à help@cybrenerdz.com pour obtenir l'aide d'un expert en cybersécurité."
   },
   ht: {
     greeting: "Bonjou, mwen se Veronica, yon asistan vwa ak entèlijans atifisyèl. Ou la, epi nou akeyi ou. Mwen la pou ede ou nan gid sa a.",
     note: "Vwa: Veronica, yon asistan entèlijans atifisyèl, li pale sou pwòp aparèy ou.",
-    title: "Mande Veronica",
-    hint: "Poze yon kesyon sou paj sa a. Veronica reponn sèlman ak sa ki ekri la a.",
-    placeholder: "Kisa ou ta renmen konnen?",
+    title: "Poze Veronica yon kesyon sou paj sa a",
+    disclose: "Veronica se yon asistan entèlijans atifisyèl ki chèche sèlman nan paj sa a, sou aparèy ou.",
+    placeholder: "Kisa pou m fè si m te peye yon eskwok?",
     button: "Mande",
-    before: ["Bèl kesyon. Men sa paj sa a di:", "Mwen kontan ou mande.", "Ann gade sa ansanm."],
-    after: ["Ou pa poukont ou nan sa.", "Pran sa yon etap alafwa."],
-    miss: "Mwen regrèt, mwen pa jwenn sa sou paj sa a. Ou ka ekri bay help@cybrenerdz.com epi yon ekspè nan cybersecurity ka ede ou."
+    jump: "Montre pati sa a sou paj la",
+    miss: "Mwen ka reponn sèlman apati paj sa a, epi mwen pa jwenn sa la a. Ou ka ekri bay help@cybrenerdz.com pou yon ekspè nan cybersecurity ede ou."
   },
   pt: {
     greeting: "Olá, eu sou Veronica, uma assistente de voz com inteligência artificial. Você está aqui, e nós lhe damos as boas-vindas. Estou aqui para ajudar você a percorrer este guia.",
     note: "Voz: Veronica, uma assistente de inteligência artificial, falada pelo seu próprio dispositivo.",
-    title: "Pergunte à Veronica",
-    hint: "Faça uma pergunta sobre esta página. A Veronica responde só com o que está escrito aqui.",
-    placeholder: "O que você gostaria de saber?",
+    title: "Faça uma pergunta à Veronica sobre esta página",
+    disclose: "Veronica é uma assistente de inteligência artificial que só pesquisa esta página, no seu dispositivo.",
+    placeholder: "O que eu faço se paguei um golpista?",
     button: "Perguntar",
-    before: ["Boa pergunta. Eis o que esta página diz:", "Que bom que você perguntou.", "Vamos ver isso juntos."],
-    after: ["Você não está sozinho nisso.", "Vá um passo de cada vez."],
-    miss: "Sinto muito, não encontrei isso nesta página. Você pode escrever para help@cybrenerdz.com e um especialista em cibersegurança pode ajudar."
+    jump: "Ver esta parte na página",
+    miss: "Só posso responder a partir desta página, e não encontrei isso aqui. Você pode escrever para help@cybrenerdz.com para receber ajuda de um especialista em cibersegurança."
   },
   hi: {
     greeting: "नमस्ते, मैं Veronica हूँ, एक एआई आवाज़ सहायक। आप यहाँ हैं, और हम आपका स्वागत करते हैं। मैं इस गाइड में आपकी मदद करने के लिए यहाँ हूँ।",
     note: "आवाज़: Veronica, एक एआई सहायक, जिसे आपका अपना उपकरण बोलता है।",
-    title: "Veronica से पूछें",
-    hint: "इस पन्ने के बारे में पूछें। Veronica केवल यहाँ लिखी बात से जवाब देती है।",
-    placeholder: "आप क्या जानना चाहते हैं?",
+    title: "इस पन्ने के बारे में Veronica से पूछें",
+    disclose: "Veronica एक एआई सहायक है जो केवल इस पन्ने को आपके अपने उपकरण पर खोजती है।",
+    placeholder: "अगर मैंने ठग को पैसे दे दिए तो क्या करूँ?",
     button: "पूछें",
-    before: ["अच्छा सवाल है। इस पन्ने पर यह लिखा है:", "आपने पूछा, इससे अच्छा लगा।", "चलिए इसे साथ में देखते हैं।"],
-    after: ["इसमें आप अकेले नहीं हैं।", "एक-एक कदम चलें।"],
-    miss: "माफ़ कीजिए, मुझे यह इस पन्ने पर नहीं मिला। आप help@cybrenerdz.com पर ईमेल कर सकते हैं, और एक साइबर सुरक्षा विशेषज्ञ आपकी मदद कर सकता है।"
+    jump: "इस हिस्से को पन्ने पर दिखाएँ",
+    miss: "मैं केवल इस पन्ने से उत्तर दे सकती हूँ, और यह यहाँ नहीं मिला। मदद के लिए आप help@cybrenerdz.com पर साइबर सुरक्षा विशेषज्ञ को ईमेल कर सकते हैं।"
   }
 };
 
@@ -174,7 +162,7 @@ var COPY = {
   var synth = window.speechSynthesis;
   var canSpeak = !!(synth && typeof window.SpeechSynthesisUtterance !== "undefined");
   var greeted = false;
-  var beforeIx = 0, afterIx = 0;
+  var pageIndex = null;
   var queue = [], token = 0, paused = false, gapTimer = null, sessionVoice = null;
   var PITCH = 1.1, VOLUME = 0.85, GAP = 300;
 
@@ -208,11 +196,6 @@ var COPY = {
     tl: stopMap("ang mga ng sa na at ay ito iyan kung ano para hindi ka mo namin ninyo si sina")
   };
 
-  function contentWords(list) {
-    var stop = STOPS[lang] || STOPS.en, kept = [];
-    list.forEach(function (w) { if (w.length >= 2 && !stop[w]) kept.push(w); });
-    return kept.length ? kept : list.filter(function (w) { return w.length >= 2; });
-  }
   function grams(s) {
     var chars = fold(s).replace(/[^\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af]/g, "");
     var g = [];
@@ -412,7 +395,78 @@ var COPY = {
   function plain(el) {
     var c = el.cloneNode(true);
     c.querySelectorAll(".cite,.tts,.tts-note,.ask,button,input,script,style,noscript").forEach(function (n) { n.remove(); });
+    c.querySelectorAll("h1,h2,h3,h4,p,li,blockquote").forEach(function (n) { n.appendChild(c.ownerDocument.createTextNode(" ")); });
     return (c.textContent || "").replace(/\s+/g, " ").trim();
+  }
+  function stemWord(w) {
+    if (lang === "en") {
+      if (w.length > 5 && w.slice(-3) === "ing") return w.slice(0, -3);
+      if (w.length > 4 && w.slice(-2) === "ed") return w.slice(0, -2);
+      if (w.length > 4 && w.slice(-2) === "es") return w.slice(0, -2);
+      if (w.length > 3 && w.slice(-1) === "s" && w.slice(-2) !== "ss") return w.slice(0, -1);
+    } else if (lang === "es" || lang === "pt" || lang === "fr") {
+      if (w.length > 4 && w.slice(-2) === "es") return w.slice(0, -2);
+      if (w.length > 3 && w.slice(-1) === "s") return w.slice(0, -1);
+    }
+    return w;
+  }
+  function synMap() {
+    var groups = {
+      en: [["ransom", "ransomware", "extortion"], ["bank", "card", "debit", "credit"], ["crypto", "bitcoin", "cryptocurrency"], ["police", "report", "reporting"], ["grandma", "grandmother", "elder", "elderly", "senior", "older"], ["scam", "scammer", "scammers", "fraud", "fraudster"], ["pay", "paid", "paying", "payment", "payments", "money"]],
+      es: [["rescate", "ransomware", "extorsion"], ["banco", "tarjeta", "debito", "credito"], ["cripto", "bitcoin", "criptomoneda"], ["policia", "denuncia", "denunciar", "reporte"], ["abuela", "abuelo", "mayor", "anciano", "anciana"], ["estafa", "estafador", "fraude"], ["pagar", "pague", "pago", "pagado", "dinero"]],
+      fr: [["rancon", "ransomware", "extorsion"], ["banque", "carte"], ["crypto", "bitcoin", "cryptomonnaie"], ["police", "plainte", "signaler"], ["senior", "age", "agee"], ["arnaque", "escroc", "fraude"], ["payer", "paye", "paiement", "argent"]],
+      pt: [["resgate", "ransomware", "extorsao"], ["banco", "cartao"], ["cripto", "bitcoin", "criptomoeda"], ["policia", "denuncia", "boletim"], ["avo", "idosa", "idoso"], ["golpe", "golpista", "fraude"], ["pagar", "paguei", "pagamento", "dinheiro"]],
+      vi: [["tienchuoc", "ransomware"], ["nganhang", "the"], ["bitcoin", "tienao"], ["cong", "trinhbao"], ["ba", "nguoigia"], ["luaodao", "ke"], ["tra", "tien"]],
+      tl: [["ransom", "ransomware"], ["bangko", "kard", "card"], ["crypto", "bitcoin"], ["pulis", "iulat", "report"], ["lola", "lolo", "matanda"], ["scam", "scammer", "estafa"], ["bayad", "nagbayad", "pera"]],
+      ht: [["ransom", "ransomware"], ["bank", "kat"], ["kripto", "bitcoin"], ["polis", "rapo"], ["granme", "granmoun"], ["eskwok", "fwod"], ["peye", "kòb", "kob"]],
+      ru: [["vykup", "выкуп", "ransomware"], ["bank", "банк", "karta", "карта"], ["crypto", "биткоин", "bitcoin", "крипто"], ["policiya", "полиция", "zayavlenie", "заявление"], ["babushka", "бабушка", "pozhiloy", "пожилой"], ["moshennik", "мошенник", "мошенничество"], ["platit", "заплатил", "деньги"]],
+      hi: [["फिरौती", "ransomware"], ["बैंक", "कार्ड"], ["बिटकॉइन", "क्रिप्टो"], ["पुलिस", "रिपोर्ट"], ["दादी", "बुजुर्ग"], ["ठग", "धोखा"], ["पैसे", "भुगतान"]],
+      ar: [["فدية", "ransomware"], ["بنك", "بطاقة"], ["بيتكوين", "تشفير"], ["شرطة", "بلاغ"], ["جدة", "مسن"], ["محتال", "احتيال"], ["دفعت", "مال", "أموال"]],
+      zh: [],
+      ko: []
+    };
+    var map = {}, list = groups[lang] || [], g, i;
+    for (g = 0; g < list.length; g++) {
+      var head = fold(list[g][0]);
+      for (i = 0; i < list[g].length; i++) map[fold(list[g][i])] = head;
+    }
+    return map;
+  }
+  var SYN = synMap();
+  var CJK_SYN = {
+    zh: [["勒索", "赎金", "勒索软件"], ["银行", "银行卡"], ["比特币", "加密货币", "虚拟货币"], ["警察", "报案", "报警"], ["奶奶", "老人", "老年"], ["骗子", "诈骗"], ["付钱", "付款", "汇款"]],
+    ko: [["랜섬", "랜섬웨어", "몸값"], ["은행", "카드"], ["비트코인", "암호화폐"], ["경찰", "신고"], ["할머니", "노인"], ["사기", "사기범"], ["돈", "송금", "이체"]]
+  };
+  function canon(w) {
+    var f = fold(w);
+    if (SYN[f]) return SYN[f];
+    var s = stemWord(f);
+    return SYN[s] || s;
+  }
+  function canonTokens(text) {
+    var raw = words(text), stop = STOPS[lang] || STOPS.en, out = [], seen = {}, i;
+    for (i = 0; i < raw.length; i++) {
+      if (raw[i].length < 2 || stop[raw[i]]) continue;
+      var c = canon(raw[i]);
+      if (!c || c.length < 2 || stop[c] || seen[c]) continue;
+      seen[c] = 1;
+      out.push(c);
+    }
+    return out;
+  }
+  function queryGrams(query) {
+    var bag = [query], groups = CJK_SYN[lang] || [], g, i, hit;
+    for (g = 0; g < groups.length; g++) {
+      hit = false;
+      for (i = 0; i < groups[g].length; i++) if (query.indexOf(groups[g][i]) !== -1) hit = true;
+      if (hit) bag = bag.concat(groups[g]);
+    }
+    var set = {}, list = [], gramsOf, j;
+    for (i = 0; i < bag.length; i++) {
+      gramsOf = grams(bag[i]);
+      for (j = 0; j < gramsOf.length; j++) if (!set[gramsOf[j]]) { set[gramsOf[j]] = 1; list.push(gramsOf[j]); }
+    }
+    return list;
   }
   function hasInnerPassage(el) {
     var inner = el.querySelectorAll("p, li, blockquote");
@@ -421,45 +475,106 @@ var COPY = {
     }
     return false;
   }
-  function findPassage(query) {
+  function buildIndex() {
     var main = doc.getElementById("main");
-    if (!main) return "";
-    var qWords = contentWords(words(query));
-    var qGrams = grams(query);
-    var foldedQ = fold(query).replace(/\s+/g, " ").trim();
-    var nodes = main.querySelectorAll("p, li, blockquote, h2, h3, summary, legend");
-    var best = null;
-    for (var i = 0; i < nodes.length; i++) {
-      var el = nodes[i];
-      if (el.closest(".ask,.tts,.toolbar,.cite,.tts-note")) continue;
-      if (hasInnerPassage(el)) continue;
+    var items = [], seen = {};
+    if (!main) return items;
+    function add(el, target) {
+      if (!el || el.closest(".ask,.tts,.toolbar,.cite,.tts-note")) return;
       var text = plain(el);
-      if (text.length < 24) continue;
-      var pw = {}, ws = words(text), hits = 0, score = 0, w;
-      for (w = 0; w < ws.length; w++) pw[ws[w]] = (pw[ws[w]] || 0) + 1;
-      for (w = 0; w < qWords.length; w++) {
-        if (pw[qWords[w]]) { hits++; score += 2 + Math.min(pw[qWords[w]], 3); }
-      }
-      if (qGrams.length) {
-        var set = {}, gs = grams(text), g, gh = 0;
-        for (g = 0; g < gs.length; g++) set[gs[g]] = 1;
-        for (g = 0; g < qGrams.length; g++) if (set[qGrams[g]]) gh++;
-        if (gh) { hits += gh; score += gh * 2; }
-      }
-      if (foldedQ.length > 3 && fold(text).indexOf(foldedQ) !== -1) score += 8;
-      if (!hits || score <= 0) continue;
-      var denom = qWords.length + (qGrams.length ? Math.min(qGrams.length, 8) : 0);
-      score = score * (hits / (denom || 1));
-      if (!best || score > best.score || (score === best.score && text.length < best.text.length)) best = { score: score, text: text };
+      if (text.length < 40 || seen[text]) return;
+      seen[text] = 1;
+      if (!el.id) el.id = "v-pass-" + items.length;
+      var toks = canonTokens(text), set = {}, gset = {}, gs = grams(text), i;
+      for (i = 0; i < toks.length; i++) set[toks[i]] = (set[toks[i]] || 0) + 1;
+      for (i = 0; i < gs.length; i++) gset[gs[i]] = 1;
+      items.push({ el: el, target: target || el, text: text, set: set, grams: gset, index: items.length });
     }
-    return best ? best.text : "";
+    var stories = main.querySelectorAll("article.story");
+    for (var s = 0; s < stories.length; s++) add(stories[s], stories[s]);
+    var nodes = main.querySelectorAll("p, li, blockquote");
+    for (var n = 0; n < nodes.length; n++) {
+      var el = nodes[n];
+      if (el.closest("article.story, .ask, .cite")) continue;
+      if (hasInnerPassage(el)) continue;
+      add(el, el.closest("details.scard, section, aside") || el);
+    }
+    var df = {}, t;
+    for (n = 0; n < items.length; n++) {
+      for (t in items[n].set) if (items[n].set.hasOwnProperty(t)) df[t] = (df[t] || 0) + 1;
+    }
+    for (n = 0; n < items.length; n++) items[n].df = df;
+    items.df = df;
+    items.n = items.length;
+    return items;
   }
-  function nextWrap() {
-    var before = copy.before[beforeIx % copy.before.length];
-    var after = copy.after[afterIx % copy.after.length];
-    beforeIx++;
-    afterIx++;
-    return { before: before, after: after };
+  function weight(df, n, term) {
+    return Math.log((n + 1) / ((df[term] || 0) + 0.5));
+  }
+  function searchPage(query) {
+    if (!pageIndex) pageIndex = buildIndex();
+    var qTokens = canonTokens(query);
+    var qg = queryGrams(query);
+    var df = pageIndex.df || {}, nDocs = pageIndex.n || pageIndex.length;
+    qTokens = qTokens.filter(function (t) { return (df[t] || 0) > 0; });
+    if (!qTokens.length && !qg.length) return [];
+    var foldedQ = fold(query).replace(/\s+/g, " ").trim();
+    var ranked = [], i, t, hitW, allW, gHit;
+    for (i = 0; i < pageIndex.length; i++) {
+      var item = pageIndex[i];
+      hitW = 0;
+      allW = 0;
+      for (t = 0; t < qTokens.length; t++) {
+        var w = weight(df, nDocs, qTokens[t]);
+        allW += w;
+        if (item.set[qTokens[t]]) hitW += w;
+      }
+      gHit = 0;
+      for (t = 0; t < qg.length; t++) if (item.grams[qg[t]]) gHit++;
+      var tokenScore = allW ? hitW / allW : 0;
+      var gramScore = qg.length ? gHit / Math.min(qg.length, 8) : 0;
+      var score = qTokens.length ? tokenScore : gramScore;
+      if (qTokens.length && qg.length) score = tokenScore * 0.75 + gramScore * 0.25;
+      if (foldedQ.length > 4 && fold(item.text).indexOf(foldedQ) !== -1) score += 0.2;
+      if (score <= 0) continue;
+      ranked.push({ item: item, score: score });
+    }
+    ranked.sort(function (a, b) {
+      if (b.score !== a.score) return b.score - a.score;
+      var pos = a.item.el.compareDocumentPosition(b.item.el);
+      if (pos & 4) return -1;
+      if (pos & 2) return 1;
+      return 0;
+    });
+    if (!ranked.length || ranked[0].score < 0.42) return [];
+    var best = ranked[0].score;
+    function guidance(entry) {
+      return !!(entry && entry.item.el.closest("#steps, #help-now, .rule, #bank-rule"));
+    }
+    function dupOf(list, entry) {
+      for (var d = 0; d < list.length; d++) {
+        if (list[d].item === entry.item) return true;
+        var a = list[d].item.text, b = entry.item.text;
+        if (a.indexOf(b) !== -1 || b.indexOf(a) !== -1) return true;
+      }
+      return false;
+    }
+    var picked = [];
+    function push(entry) {
+      if (!entry || picked.length >= 3 || dupOf(picked, entry)) return;
+      picked.push(entry);
+    }
+    push(ranked[0]);
+    for (i = 0; i < ranked.length; i++) {
+      if (guidance(ranked[i]) && ranked[i].score >= best * 0.5) { push(ranked[i]); break; }
+    }
+    for (i = 0; i < ranked.length && picked.length < 3; i++) {
+      if (ranked[i].score < best * 0.72) break;
+      push(ranked[i]);
+    }
+    var out = [];
+    for (i = 0; i < picked.length; i++) out.push(picked[i].item);
+    return out;
   }
   function emailParagraph(text) {
     var p = doc.createElement("p");
@@ -481,20 +596,23 @@ var COPY = {
     var section = doc.createElement("section");
     section.className = "card ask";
     section.id = "ask-veronica";
+    section.setAttribute("role", "search");
     var h = doc.createElement("h2");
     h.id = "ask-veronica-title";
     h.textContent = copy.title;
-    var hint = doc.createElement("label");
-    hint.className = "small";
-    hint.htmlFor = "ask-veronica-q";
-    hint.textContent = copy.hint;
+    var disclose = doc.createElement("p");
+    disclose.className = "ask-disclose";
+    disclose.id = "ask-veronica-disclose";
+    disclose.textContent = copy.disclose;
     var row = doc.createElement("div");
     row.className = "ask-row";
     var input = doc.createElement("input");
     input.type = "search";
     input.id = "ask-veronica-q";
     input.autocomplete = "off";
-    input.enterKeyHint = "search";
+    input.setAttribute("enterkeyhint", "search");
+    input.setAttribute("aria-labelledby", "ask-veronica-title");
+    input.setAttribute("aria-describedby", "ask-veronica-disclose");
     input.placeholder = copy.placeholder;
     var button = doc.createElement("button");
     button.type = "button";
@@ -506,36 +624,55 @@ var COPY = {
     row.appendChild(input);
     row.appendChild(button);
     section.appendChild(h);
-    section.appendChild(hint);
+    section.appendChild(disclose);
     section.appendChild(row);
     section.appendChild(live);
     var anchor = doc.getElementById("help-now");
     if (anchor && anchor.parentNode) anchor.insertAdjacentElement("afterend", section);
     else main.appendChild(section);
+    pageIndex = buildIndex();
+    function showOnPage(item, ev) {
+      if (ev) ev.preventDefault();
+      var box = item.target || item.el;
+      var details = item.el.closest("details");
+      if (details) details.open = true;
+      doc.querySelectorAll(".ask-hit").forEach(function (n) { n.classList.remove("ask-hit"); });
+      box.classList.add("ask-hit");
+      if (!item.el.hasAttribute("tabindex")) item.el.setAttribute("tabindex", "-1");
+      var reduce = false;
+      try { reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) {}
+      item.el.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" });
+      try { item.el.focus({ preventScroll: true }); } catch (e2) { item.el.focus(); }
+    }
     function run() {
       var q = (input.value || "").replace(/\s+/g, " ").trim().slice(0, 400);
       if (!q) return;
       live.textContent = "";
-      var passage = findPassage(q);
-      if (!passage) {
+      var hits = searchPage(q);
+      if (!hits.length) {
         live.appendChild(emailParagraph(copy.miss));
         speakParts([copy.miss]);
         return;
       }
-      var wrap = nextWrap();
-      var b = doc.createElement("p");
-      b.className = "ask-before";
-      b.textContent = wrap.before;
-      var quote = doc.createElement("blockquote");
-      quote.className = "ask-passage";
-      quote.textContent = passage;
-      var a = doc.createElement("p");
-      a.className = "ask-after";
-      a.textContent = wrap.after;
-      live.appendChild(b);
-      live.appendChild(quote);
-      live.appendChild(a);
-      speakParts([wrap.before, passage, wrap.after]);
+      var bubble = doc.createElement("div");
+      bubble.className = "ask-bubble";
+      hits.forEach(function (item) {
+        var card = doc.createElement("article");
+        card.className = "ask-hit-card";
+        var quote = doc.createElement("blockquote");
+        quote.className = "ask-passage";
+        quote.textContent = item.text;
+        var jump = doc.createElement("a");
+        jump.className = "ask-jump";
+        jump.href = "#" + item.el.id;
+        jump.textContent = copy.jump;
+        jump.addEventListener("click", function (ev) { showOnPage(item, ev); });
+        card.appendChild(quote);
+        card.appendChild(jump);
+        bubble.appendChild(card);
+      });
+      live.appendChild(bubble);
+      speakParts([hits[0].text]);
     }
     button.addEventListener("click", run);
     input.addEventListener("keydown", function (ev) {

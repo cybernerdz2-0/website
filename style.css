@@ -37,11 +37,20 @@ input:checked+span{text-decoration:line-through;color:var(--muted)}
 .tts{margin:.4rem 0}.speed{white-space:nowrap}
 .tts-note{display:block;margin:.35rem 0 0;font-size:.8rem;font-weight:500;line-height:1.45;color:var(--muted)}
 .tts-measure{position:absolute;width:42rem;left:-12000px;top:0;overflow:hidden}
+.ask{border:3px solid var(--violet);background:linear-gradient(135deg,rgba(163,18,122,.1),rgba(91,33,182,.08),rgba(14,116,144,.1))}
+.ask h2{border:0;padding:0}
+.ask-disclose{margin:.15rem 0 .75rem;font-size:.95rem}
 .ask .ask-row{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
-.ask input[type="search"]{flex:1 1 14rem;min-width:0;font:inherit;color:var(--ink);background:var(--bg);border:2px solid var(--violet);border-radius:999px;padding:.55rem .9rem}
-.ask-before,.ask-after{margin:.45rem 0}
-.ask-passage{margin:.45rem 0;padding:.7rem .95rem;border-inline-start:4px solid var(--violet);background:var(--soft);border-radius:8px}
+.ask input[type="search"]{flex:1 1 14rem;min-width:0;font:inherit;color:var(--ink);background:var(--bg);border:2px solid var(--magenta);border-radius:999px;padding:.65rem 1rem}
+.ask-bubble{display:grid;gap:.7rem;margin-top:.9rem}
+.ask-hit-card{background:var(--soft);border-radius:14px;padding:.8rem .95rem;border-inline-start:6px solid var(--magenta)}
+.ask-passage{margin:0 0 .45rem;padding:0;border:0;background:transparent;font-family:inherit;font-size:1rem}
+.ask-jump{font-weight:800}
 .ask-miss{margin:.7rem 0 0}
+.ask-hit{box-shadow:0 0 0 4px var(--gold);border-radius:14px}
+@media (prefers-reduced-motion:no-preference){.ask-hit{animation:askglow 1.2s ease}}
+@keyframes askglow{from{box-shadow:0 0 0 0 var(--gold)}to{box-shadow:0 0 0 4px var(--gold)}}
+@media (max-width:640px){.ask .ask-row{flex-direction:column;align-items:stretch}.ask .ask-go{width:100%}}
 .example{border:1px dashed #888;border-radius:8px;padding:.6rem .9rem;margin:.6rem 0}.example .label{font-size:.8em;text-transform:uppercase;letter-spacing:.05em;margin:0}
 blockquote{margin:.4rem 0;padding:.4rem .8rem;border-inline-start:4px solid var(--cyan);font-family:ui-monospace,monospace;overflow-wrap:anywhere}
 details.guide>summary{cursor:pointer}details.guide>summary h2{display:inline}
