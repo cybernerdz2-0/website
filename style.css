@@ -35,10 +35,17 @@ input:checked+span{text-decoration:line-through;color:var(--muted)}
 .quiz fieldset{border:0;padding:0;margin:.3rem 0}.quiz legend{font-weight:600}.quiz label{margin-inline-end:1rem}
 .quiz-out{font-weight:700;font-size:1.1em;padding:.6rem;border-radius:8px}.quiz-out.lvl0{background:rgba(14,116,144,.12)}.quiz-out.lvl1{background:rgba(242,193,78,.25)}.quiz-out.lvl2{background:rgba(163,18,122,.14)}
 .tts{margin:.4rem 0}.speed{white-space:nowrap}
+.tts-note{display:block;margin:.35rem 0 0;font-size:.8rem;font-weight:500;line-height:1.45;color:var(--muted)}
+.tts-measure{position:absolute;width:42rem;left:-12000px;top:0;overflow:hidden}
+.ask .ask-row{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
+.ask input[type="search"]{flex:1 1 14rem;min-width:0;font:inherit;color:var(--ink);background:var(--bg);border:2px solid var(--violet);border-radius:999px;padding:.55rem .9rem}
+.ask-before,.ask-after{margin:.45rem 0}
+.ask-passage{margin:.45rem 0;padding:.7rem .95rem;border-inline-start:4px solid var(--violet);background:var(--soft);border-radius:8px}
+.ask-miss{margin:.7rem 0 0}
 .example{border:1px dashed #888;border-radius:8px;padding:.6rem .9rem;margin:.6rem 0}.example .label{font-size:.8em;text-transform:uppercase;letter-spacing:.05em;margin:0}
 blockquote{margin:.4rem 0;padding:.4rem .8rem;border-inline-start:4px solid var(--cyan);font-family:ui-monospace,monospace;overflow-wrap:anywhere}
 details.guide>summary{cursor:pointer}details.guide>summary h2{display:inline}
 .toc ol{columns:2 16rem}
 [dir=rtl] body{text-align:right}
-@media print{header.site nav,.langs,.toolbar,.tts,.btn,.skip-link,.quiz,.toc{display:none!important}.card,.lifeline{border:1px solid #999;break-inside:avoid-page}details{display:block}details>*{display:block}a.src::after{content:" (" attr(href) ")";font-size:.8em;word-break:break-all}a{color:#000}body{color:#000;background:#fff}}
+@media print{header.site nav,.langs,.toolbar,.tts,.tts-note,.ask,.btn,.skip-link,.quiz,.toc{display:none!important}.card,.lifeline{border:1px solid #999;break-inside:avoid-page}details{display:block}details>*{display:block}a.src::after{content:" (" attr(href) ")";font-size:.8em;word-break:break-all}a{color:#000}body{color:#000;background:#fff}}
 .tel,.ltr{direction:ltr;unicode-bidi:isolate}
